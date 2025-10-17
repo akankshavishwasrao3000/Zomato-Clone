@@ -1,0 +1,427 @@
+    nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+    background-color: white;
+    border: 1px solid rgb(221, 216, 216);
+    display: flex;
+    justify-content: space-evenly;
+
+
+    }
+
+    nav img{
+    margin-top: 1px;
+    margin-left: 90px;
+    }
+
+    .main{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-left: 10px;
+
+    }
+    .main img{
+    height: 200px;
+    width: 100%;
+    }
+
+    .main a{
+    width: 100px;
+    border-radius: 30px;
+
+
+    }
+    .dish{
+    margin-left: 100px;
+    margin-right: 100px;
+
+    }
+    .parent{
+    display: inline-flex;
+    margin-right: -17px;
+
+    }
+ .plates{
+    background-image: url(zomatoimage.avif);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 4px rgb(233 228 222);
+    border: 1px solid rgb(221, 216, 216);
+    
+ }
+ #butt{
+    background-color: rgb(243, 44, 44);
+    border: 1px solid  rgb(243, 44, 44) ;
+    color: white;
+    height: 50px;
+    width: 300px;
+    
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 40px;
+ }
+  #butt a{
+    text-decoration: none;
+    color: white;
+
+ }
+ #bill{
+    color: white;
+    font-size: 15px;
+    
+    margin-top: 170px;
+    margin-left: 50px;
+    
+ }
+ #off{
+    color: white;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 90px;
+    margin-left: 50px;
+    font-weight: bold;
+ }
+    button{
+    width: 500px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    }
+    .box{
+      margin: 10px;
+      padding: 5px;
+      width: 500px;
+      margin-left: -20px;
+      margin-top: 20px;
+      border-radius: 20px;
+      border: 1px solid blanchedalmond;
+    }
+  
+   
+  .box input{
+   border: none;
+   width: 200px;
+ 
+  
+  }
+
+    .log{
+    font-size: larger;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 47px;
+    border: none;
+    text-decoration: none;
+
+    }
+
+    .sign{
+    font-size: larger;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 73px;
+   border: none;
+
+
+    }
+
+    /* -----------footer----------- */
+   
+
+    .foot{
+      margin-top: 100px;
+      margin-left: -190px;
+      display: grid;
+      height: 200px;
+      width: 1000px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+      column-gap: 10px;
+      color: white;
+    }
+    #link a{
+      color: white;
+    }
+    @media screen and (max-width:1130px){
+      .box{
+         width: 400px;
+         margin-right: 20px;
+      }
+      .box input{
+    border: none;
+    width: 50px;
+ 
+      }
+ 
+  
+    input{
+    width: 150px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: -1px;
+    height: 40px;
+    
+    }
+    
+    .log{
+    font-size: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+       border: none;
+    }   
+    input ::placeholder{
+    font-size: 5px;
+    } 
+    .sign{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 30px;
+       border: none;
+    }
+    }
+    @media screen and (max-width:806px){
+        .box{
+         width: 300px;
+         margin-right: 60px;
+      }
+        .box input{
+   border: none;
+   width: 50px;
+ 
+        }
+    input{
+    width: 110px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: -1px;
+    height: 40px;
+
+    }
+   
+   
+    input::placeholder{
+    font-size: small;
+    }
+    .log{
+    font-size: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 40px;
+       border: none;
+    }    
+    .sign{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+       border: none;
+    }
+    }
+    @media screen and (max-width:575px){
+      .box{
+         width: 200px;
+         margin-right: 90px;
+      }
+        .box input{
+   border: none;
+   width: 50px;
+ 
+        }
+    input{
+    width: 90px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: -1px;
+    height: 40px;
+
+    }
+    
+    nav img{
+    margin-top: 1px;
+    margin-left: 20px;
+    }
+  
+    .box input::placeholder{
+    font-size: 10px;
+    }
+    .log{
+    font-size: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: -70px;
+    margin-right: 20px;
+       border: none;
+    }    
+    .sign{
+    font-size: 8px;
+    margin-top: 20px;
+    margin-left: -5px;
+       border: none;
+    }
+    .main{
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    }
+
+    }
+    @media screen and (max-width:436px){
+      .box{
+         width: 200px;
+         margin-right: 120px;
+      }
+        .box input{
+   border: none;
+   width: 50px;
+ 
+        }
+    input{
+    width: 40px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: -1px;
+    height: 40px;
+
+    }
+  
+    nav img{
+    margin-top: 1px;
+    margin-left: 10px;
+    }
+  
+    input::placeholder{
+    font-size: smaller;
+    }
+    .log{
+    font-size: 7px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: -50px;
+       border: none;
+    }    
+    .sign{
+    font-size: 7px;
+    margin-top: 20px;
+    margin-left: -20px;
+       border: none;
+    }
+    .main{
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    }
+   }
+    
+    @media screen and (max-width:389px){
+    .box{
+         width: 200px;
+         margin-right: 130px;
+      }
+        .box input{
+   border: none;
+   width: 50px;
+ 
+        }
+    input{
+    width: 90px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: -1px;
+    height: 40px;
+
+    }
+    
+    nav img{
+    margin-top: 1px;
+    margin-left: 5px;
+    }
+   
+    input::placeholder{
+    font-size: smaller;
+    }
+    .log{
+    font-size: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: -32px;
+       border: none;
+    }    
+    .sign{
+    font-size: 6px;
+    margin-top: 20px;
+    margin-left: -22px;
+       border: none;
+    }
+    .main{
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    }
+
+    }
+    
+    @media screen and (max-width:328px){
+   .box{
+         width: 200px;
+         margin-right: 100px;
+      }
+      .box input{
+   border: none;
+   width: 50px;
+ 
+        }
+    input{
+    width: 90px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: -1px;
+    height: 40px;
+    }
+    }
+    
+        nav img{
+        margin-top: 1px;
+        margin-left: 1px;
+        }
+        input{
+        width: 50px;    
+        }
+        .log{
+        margin-left: -35px; 
+        margin-right: 20px;
+           border: none;
+        }
+        .sign{
+        margin-left: -5px;
+           border: none;
+        }
+
+    .box{
+    margin-right: 90px;
+    }
+    #sem{
+
+    font-size: 15px;
+    margin-right: -10px;
+    cursor: pointer;
+    color: rgb(20, 16, 16);  
+    }
+
+
